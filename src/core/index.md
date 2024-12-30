@@ -13,6 +13,17 @@ tagline: "Getting values from tables."
 -   …but if all we want is a constant value, we don't need to specify one
 -   Semi-colon terminator is required
 
+## Calculations
+
+[Online SQL Sndbox](https://sqlize.online/sql/sqlite3_data/c09ccf5e590727eefd505201c9bf8cd6/)
+
+[%inc calculate.sql %]
+[%inc calculate.out %]
+
+- SQL can perform simple operations on numbers, strings, and dates.
+- You can use various built-in functions for more complex operations.
+- For a complete list and documentation of built-in SQL functions, please refer to the [official SQLite documentation](https://www.sqlite.org/lang_corefunc.html).
+
 ## Selecting All Values from Table
 
 [%inc select_star.sql %]
